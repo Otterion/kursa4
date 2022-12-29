@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="ru">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мир музыки</title>
+    <link rel="icon" type="image/png" href="images/icon.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="shop_container">
+        <header>
+            <h1><a href="main_page.html">Мир музыки</a></h1>
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox" class="burger-label">
+                <span class="burger"></span>
+            </label>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="ganres.html" class="link-button button2">Жанры</a></li>
+                    <li><a href="news.html" class="link-button button2">Новости</a></li>
+                    <li><a href="music.html" class="link-button button2">Подборки</a></li>
+                    <li><a href="shop.html" class="link-button button2">Магазин</a> </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="sidebar droppable">
+            <h2 id="finish">Корзина</h2>
+            <div class="carts">
+            </div>
+            <h3 class="total">Итого: <span class="summa">0</span> руб</h3>
+        </div>
+        <div class="ads">
+            <div class="filter">
+                <span>Фильтр по цене: </span>
+                <input type="number" class="filter_text" id="min">руб <input type="number" class="filter_text" id="max">руб
+                <button class="filter_btn">Применить</button>
+            </div>
+            <div>
+                <span class="sort_text">По умолчанию</span>
+                <button class="sort">Сортировка</button>
+            </div>
+        </div>
+        <main>
+            <div class="catalog">
+            </div>
+        </main>
+
+        <footer>
+            <div id="about">
+                <h3>Соцальные сети</h3>
+                <ul class="social_icons">
+                    <li><a href="" class="icon_vk"></a></li>
+                    <li><a href="" class="icon_fb"></a></li>
+                    <li><a href="" class="icon_inst"></a></li>
+                    <li><a href="" class="icon_twitter"></a></li>
+                    <li><a href="" class="icon_tg"></a></li>
+                </ul>
+            </div>
+            <div id="quick">
+                <h3>Помощь</h3>
+                <ul class="links">
+                    <li><a href="">О нас</a></li>
+                    <li><a href="">Частые вопросы</a></li>
+                    <li><a href="">Политика конфиденциальности</a></li>
+                    <li><a href="">Термины</a></li>
+                    <li><a href="">Контакты</a></li>
+                </ul>
+            </div>
+            <div id="shop">
+                <h3>Магазин</h3>
+                <ul class="links">
+                    <li><a href="">Инструменты</a></li>
+                    <li><a href="">Аксесуары</a></li>
+                    <li><a href="">Одежда</a></li>
+                    <li><a href="">Оборудование</a></li>
+                    <li><a href="">Наушники</a></li>
+                    <li><a href="">Микрофоны</a></li>
+                </ul>
+            </div>
+            <div id="contact">
+                <h3>Контакты</h3>
+                <ul class="links">
+                    <li>
+                        <a href="">г.Москва, Проспект Вернадского, д.78</a>
+                        <img src="images/map.png" alt="">
+                    </li>
+                    <li>
+                        <a href="">8-123-456-78-90</a><br>
+                        <a href="">8-987-654-32-10</a>
+                        <img src="images/tel.png" alt="">
+                    </li>
+                    <li>
+                        <a href="">pochta@mail.ru</a>
+                        <img src="images/mail.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </footer>  
+    </div>
+    <script src="js/shop.js"></script>
+</body>
+</html>
